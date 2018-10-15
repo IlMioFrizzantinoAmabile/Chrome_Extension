@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Beretta's extension",
+  "version": "1.0",
+  "description": "Per i veri fan del nostro amico lorenzo",
+  "web_accessible_resources": [
+    "foto/*.jpg"
+  ],
+  "content_scripts": [{
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["sweg.js"]
+  }]
+
+
+}
